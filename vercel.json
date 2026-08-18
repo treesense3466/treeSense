@@ -1,7 +1,8 @@
 {
-  "outputDirectory": "treesense",
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "outputDirectory": "treesense/dist",
   "cleanUrls": true,
   "rewrites": [
-    { "source": "/(.*)", "destination": "/dist/index.html" }
+    { "source": "/", "destination": "/chart.html" }
   ]
 }
