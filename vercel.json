@@ -1,0 +1,7 @@
+{
+  "outputDirectory": "treesense/dist",
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
