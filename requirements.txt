@@ -1,6 +1,6 @@
 streamlit
-pandas
+opencv-python-headless
 numpy
-scikit-learn
-matplotlib
-plotly
+pillow
+torch
+torchvision
