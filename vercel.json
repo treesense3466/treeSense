@@ -1,14 +1,7 @@
 {
-  "outputDirectory": "treesense/dist",
+  "outputDirectory": "treesense",
   "cleanUrls": true,
-  "routes": [
-    {
-      "src": "/dist/(.*)",
-      "dest": "/$1"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
-    }
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/dist/index.html" }
   ]
 }
